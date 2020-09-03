@@ -1,0 +1,14 @@
+﻿.global-screen {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  &__loading {
+    width: 100px;
+    height: 100px;
+  }
+}
